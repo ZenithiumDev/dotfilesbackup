@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## basic shit that should be in the default bashrc but isnt so i had to add it myself
+export PATH=/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/lib64/qt/bin:/usr/lib64/qt5/bin
+export PS1="\u@\h:\w\$ "
+
+## aliases
+alias ls='ls --color=auto'
+
+## run pfetch cause neofetch sucks
+pfetch
